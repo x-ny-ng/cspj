@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Updates</title>
+</head>
+ 
+<body>
+    <p>Download updates here :></p>
+    <form action="{{ url_for('updates') }}" method="post">
+        <input type="radio"  value="medoc.3.0" name="version" id="medoc.3.0">
+        <label for="medoc.3.0">MeDoc Version 3.0</label><br>
+        <input type="radio"  value="medoc.3.1" name="version" id="medoc.3.1">
+        <label for="medoc.3.1">MeDoc Version 3.1</label><br>
+        <input type="radio"  value="medoc.3.2" name="version" id="medoc.3.2">
+        <label for="medoc.3.2">MeDoc Version 3.2</label><br>
+        <br> <input type="submit" value="Download">
+    </form>
+ 
+</body>
+</html>
