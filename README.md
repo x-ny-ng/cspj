@@ -1,2 +1,2 @@
 # cspj
-updates page for medoc server
+backup updates for medoc server
